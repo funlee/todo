@@ -1,5 +1,5 @@
 {
-  "name": "react-todo",
+  "name": "react-todo-mvc",
   "version": "1.0.0",
   "main": "./js/app.js",
   "description": "ToDoList created by React",
@@ -9,16 +9,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/funlee/react-todo.git"
+    "url": "https://github.com/funlee/react-todo-mvc.git"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development node server.js"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/funlee/react-todo/issues"
+    "url": "https://github.com/funlee/react-todo-mvc/issues"
   },
-  "homepage": "https://github.com/funlee/react-todo#readme",
+  "homepage": "https://github.com/funlee/react-todo-mvc#readme",
   "author": "funlee",
   "devDependencies": {
     "babel": "^6.5.2",
