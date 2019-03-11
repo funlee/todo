@@ -6,12 +6,9 @@
  * @Description: TodoLists component 
  */
 import React, { Component } from 'react';
-import TodoItem from './TodoItem'
+import TodoItem from './TodoItem';
 
 class TodoLists extends Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     const listItems = this.props.data.map(item => {
       return (

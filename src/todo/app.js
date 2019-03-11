@@ -3,10 +3,9 @@
  * @Email: i@funlee.cn
  * @Date: 2018-01-19 00:36:17
  * @Last Modified time: 2018-01-19 00:36:17
- * @Description: react-todo 
+ * @Description: todo 
  */
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import '../css/todo.scss'
 
 import TodoLists from './TodoLists'
@@ -67,7 +66,7 @@ class App extends Component {
     }).length
     return (
       <div className="todo">
-        <h1 className="todo-title">React Todo</h1>
+        <h1 className="todo-title">Todo List</h1>
         <TodoLists data={this.state.tasks} toggleComplete={this.handleToggleComplete} deleteTask={this.deleteTask}/>
         <TodoCount totalCount={totalCount} totalCompleteCount={totalCompleteCount}/>
         <TodoPanel addTask={this.addTask}/>
@@ -76,4 +75,4 @@ class App extends Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'))
+export default App

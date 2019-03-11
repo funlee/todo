@@ -1,12 +1,12 @@
-react-todo-mvc
+todo
 ===============
-预览地址：[react-todo](http://show.funlee.cn/react-todo/index.html "react-todo")
+预览地址：[todo](http://show.funlee.cn/react-todo/index.html "todo")
 
 安装
 ----
 ```bash
-git clone https://github.com/funlee/react-todo-mvc.git
-cd react-todo-mvc
+git clone https://github.com/funlee/todo.git
+cd todo
 npm install
 npm run start
 ```
