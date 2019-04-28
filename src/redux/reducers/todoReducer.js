@@ -31,10 +31,10 @@ export default function reducer(state = initState, action) {
     case DELETE_TODO:
       return {
         tasks: state.tasks.filter((item,index) => {
-          if (item.id == action.operate.id) {
+          if (item.id === action.operate.id) {
             state.tasks.splice(index,1)
           }
-          return item.id != action.operate.id
+          return item.id !== action.operate.id
         })
       }
     default:

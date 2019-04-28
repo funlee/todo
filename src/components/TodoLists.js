@@ -14,7 +14,7 @@ class TodoLists extends Component {
     this.handleKeyPress = this.handleKeyPress.bind(this)
   }
   handleClick() {
-    if (this.state.value.trim() == '') {
+    if (this.state.value.trim() === '') {
       alert('请输入Task！')
       return
     }
@@ -29,7 +29,7 @@ class TodoLists extends Component {
     })
   }
   handleKeyPress(event) {
-    if (event.keyCode == 13) {
+    if (event.keyCode === 13) {
       this.handleClick()
     }
   }
